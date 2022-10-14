@@ -17,7 +17,7 @@ module.exports = {
   },
   viteFinal: (config, { configType }) => {
     if (configType == 'PRODUCTION') {
-      config.base = '/ignite_figma_designsystem/'
+      config.base = '/Ignite_Figma_DesignSystem/'
     }
 
     return config
